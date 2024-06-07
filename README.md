@@ -26,4 +26,14 @@ Understanding <a href="https://learn.microsoft.com/en-us/aspnet/core/mvc/overvie
         <li>Same as Prop We Made in WebForms. We Can Use Model Directly in View Page With Help of Razor Page Using @ModelName</li>
       </ul>
   </li>
+  <li>
+    <h5>Add <code>Model</code> In View Page <code>ViewPageName.cshtml</code></h5>
+    <ul>
+      <li> Top of the Page Add <code>@model ModelName</code> </li>
+      <li> For Storing Value in Model We Use <code>asp-for</code> attribute in Element
+        <br/>For Example : <code>&ltinput type="text" asp-for="FirstName" id="FirstName"></code>
+      </li>
+      <li><code>asp-for</code> Only Works When we add <code>Model</code> into our View page as per First Point</li>
+    </ul>
+  </li>
 </ul>
